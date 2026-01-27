@@ -2,7 +2,7 @@ from products_manager import*
 FILENAME = "products.json"
 products = load_products(FILENAME)
 while True:
-    print("========== POLYlAP ==========")
+    print("<<<========== POLYlAP ==========>>>")
     print("1. THÊM SẢN PHẨM")
     print("2. HIỂN THỊ SẢN PHẨM")
     print("3. TÌM SẢM PHẨM")
