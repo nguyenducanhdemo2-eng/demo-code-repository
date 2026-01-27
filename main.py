@@ -18,7 +18,7 @@ while True:
         find_product(products)
     elif choice == "4":
         save_products(FILENAME,products)
-        print("TẠM BIỆT")
+        print("TẠM BIỆT !!!")
         break
     else:
         print("LỰA CHỌN KHÔNG HỢP LỆ !!!")
