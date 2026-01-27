@@ -10,7 +10,7 @@ def save_products(filename, products):
     with open(filename, "w", encoding="utf-8")as file:
         json.dump(products, file, ensure_ascii=False, indent=4)
 def add_product(products):
-    print("=== THÊM SẢN PHẨM ===")
+    print("<<<=== THÊM SẢN PHẨM ===>>>")
     product = {
         "id": int(input("NHẬP MÃ SẢN PHẨM: ")),
         "name": input("NHẬP TÊN SẢN PHẨM: "),
