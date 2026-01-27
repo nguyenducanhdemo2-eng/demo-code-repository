@@ -5,5 +5,12 @@
         "brand": "asus",
         "price": 1000000,
         "quantity": 9
+    },
+    {
+        "id": 2,
+        "name": "acer",
+        "brand": "asus",
+        "price": 2000000,
+        "quantity": 10
     }
 ]

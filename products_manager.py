@@ -19,7 +19,7 @@ def add_product(products):
         "quantity": int(input("NHẬP SỐ LƯỢNG: "))
     }
     products.append(product)
-    print("ĐÃ THÊM SẢN PHẨM")
+    print("<<<ĐÃ THÊM SẢN PHẨM>>>")
 def show_products(products):
     print("---------- DANH SÁCH SẢN PHẨM ----------")
     if len(products) == 0:
