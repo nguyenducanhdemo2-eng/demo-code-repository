@@ -8,7 +8,7 @@ while True:
     print("3. TÌM SẢM PHẨM")
     print("4. THOÁT CHƯƠNG TRÌNH .... ")
 
-    choice = input(" CHỌN CHỨC NĂNG : ")
+    choice = input(" CHỌN CHỨC NĂNG :  ")
     
     if choice == "1":
         add_product(products)
@@ -22,3 +22,4 @@ while True:
         break
     else:
         print("LỰA CHỌN KHÔNG HỢP LỆ !!!")
+        # xin chao
