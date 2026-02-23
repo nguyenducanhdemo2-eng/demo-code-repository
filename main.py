@@ -18,7 +18,7 @@ while True:
     elif choice == "3":
         find_product(products)
     elif choice == "4":       
-        print("TẠM BIỆT !!!")
+        print("TẠM BIỆT !!!!")
         break
     else:
         print("LỰA CHỌN KHÔNG HỢP LỆ !!!")
