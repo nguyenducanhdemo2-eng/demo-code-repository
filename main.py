@@ -6,7 +6,7 @@ while True:
     print("1. THÊM SẢN PHẨM")
     print("2. HIỂN THỊ SẢN PHẨM")
     print("3. TÌM SẢM PHẨM")
-    print("4. THOÁT CHƯƠNG TRÌNH ... ")
+    print("4. THOÁT CHƯƠNG TRÌNH .... ")
 
     choice = input(" CHỌN CHỨC NĂNG : ")
     
