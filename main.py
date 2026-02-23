@@ -21,4 +21,4 @@ while True:
         print("TẠM BIỆT !!!")
         break
     else:
-        print("LỰA CHỌN KHÔNG HỢP LỆ !!!")
+        print("LỰA CHỌN KHÔNG HỢP LỆ !!!!")
