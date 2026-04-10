@@ -1,0 +1,17 @@
+-- NGUYỄN ĐỨC ANH PH65820
+-- Bài 1: Lấy dữ liệu sản phẩm với bí danh
+SELECT product_name AS TenSanPham, price AS DonGia 
+FROM products; -- Đổi tên cột cho dễ đọc theo yêu cầu 
+-- Bài 2: Tìm kiếm khách hàng theo tên đệm
+SELECT full_name, phone_number 
+FROM customers 
+WHERE full_name LIKE '% Văn %'; -- Tìm khách hàng có chữ lót là 'Văn' 
+-- Bài 3: Sắp xếp sản phẩm theo giá giảm dần
+SELECT product_name, price 
+FROM products 
+ORDER BY price DESC; -- Hiển thị sản phẩm đắt nhất đầu tiên
+-- Bài 4: Tìm 3 sản phẩm rẻ nhất
+SELECT product_name, price 
+FROM products 
+ORDER BY price ASC 
+LIMIT 3; -- Sử dụng LIMIT để lấy 3 bản ghi thấp nhất 
